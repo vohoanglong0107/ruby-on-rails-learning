@@ -3,7 +3,7 @@ ARG VARIANT=3.1-bullseye
 FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-${VARIANT}
 
 # Install Rails
-RUN gem install rails webdrivers 
+RUN gem install 'rails:~>6.1.6' webdrivers
 
 # Default value to allow debug server to serve content over GitHub Codespace's port forwarding service
 # The value is a comma-separated list of allowed domains 
@@ -15,7 +15,14 @@ RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSI
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-#     && apt-get -y install --no-install-recommends <your-package-list-here>
+#     && apt-get -y install --no-install-recommends python3-pip libcurl4-openssl-dev libssl-dev
+
+# Uncomment this when figure out how to run framgia-ci
+# RUN curl -o /usr/bin/framgia-ci https://raw.githubusercontent.com/framgia/ci-report-tool/master/dist/framgia-ci \
+#     && chmod +x /usr/bin/framgia-ci \
+#     && pip3 install framgia-ci \
+#     && pip3 uninstall -y cleo clikit \
+#     && pip3 install cleo==0.6.8
 
 # [Optional] Uncomment this line to install additional gems.
 # RUN gem install <your-gem-names-here>
