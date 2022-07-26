@@ -15,7 +15,10 @@
 			"extensions": [
 				"rebornix.Ruby",
 				"eamodio.gitlens",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-mysql",
+				"GitHub.copilot"
 			]
 		}
 	},
@@ -25,7 +28,7 @@
 	"forwardPorts": [3000, 3306],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "bundle install && rake db:setup",
+	"postCreateCommand": "bundle install",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",

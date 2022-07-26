@@ -1,0 +1,10 @@
+en:
+  app:
+    full_name: "Ruby on Rails Tutorial Sample App"
+    logo: "sample app"
+    home: "Home"
+    help: "Help"
+    about: "About"
+    contact: "Contact"
+    signup: "Sign up"
+    login: "Log in"

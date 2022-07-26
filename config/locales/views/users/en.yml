@@ -1,0 +1,6 @@
+en:
+  views:
+    users:
+      new:
+        signup: "Sign up"
+        signup_prompt: "This will be a signup page for new users."

@@ -1,0 +1,23 @@
+<footer class="footer">
+  <small>
+  <%= 
+    t("views.layouts.footer.description_html",
+      rails_tutorial_href: link_to(
+        t("views.layouts.footer.ruby_on_rails_tutorial"),
+        "https://www.railstutorial.org/"
+      ),
+      author_href: link_to(
+        t("views.layouts.footer.author"),
+        "https://www.michaelhartl.com/"
+      )
+    )
+  %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("app.about"), about_path %></li>
+      <li><%= link_to t("app.contact"), contact_path %></li>
+      <li><%= link_to t("views.layouts.footer.news"), "https://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
