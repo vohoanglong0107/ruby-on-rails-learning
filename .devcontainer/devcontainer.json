@@ -14,7 +14,8 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"rebornix.Ruby",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"mhutchie.git-graph"
 			]
 		}
 	},
