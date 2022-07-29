@@ -1,0 +1,12 @@
+<% provide(:title, t("app.contact")) %>
+<h1><%= t("app.contact") %></h1>
+<p>
+  <%=
+    t("views.static_pages.contact.description_html",
+      contact_href: link_to(
+        t("views.static_pages.contact.contact_page"),
+        "https://www.railstutorial.org/contact"
+      ),
+    )
+  %>
+</p>

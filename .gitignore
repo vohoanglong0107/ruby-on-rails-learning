@@ -28,6 +28,9 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# Ignore local database config
+/config/database.yml
+
 /public/packs
 /public/packs-test
 /node_modules
@@ -40,4 +43,7 @@ yarn-debug.log*
 .framgia-ci-result.temp.yml
 
 .vscode
-config/database.yml
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml

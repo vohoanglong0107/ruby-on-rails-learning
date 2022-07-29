@@ -15,6 +15,7 @@
     "webpack-dev-server": "^3"
   },
   "scripts": {
-    "rubocop": "bundle exec rubocop --require rubocop/formatter/checkstyle_formatter --format RuboCop::Formatter::CheckstyleFormatter --out .framgia-ci-reports/rubocop.xml app/ lib/"
+    "rubocop": "bundle exec rubocop --require rubocop/formatter/checkstyle_formatter --format RuboCop::Formatter::CheckstyleFormatter --out .framgia-ci-reports/rubocop.xml --autocorrect app/ lib/",
+    "rubocop-console": "bundle exec rubocop --require rubocop/formatter/checkstyle_formatter app/ lib/"
   }
 }
