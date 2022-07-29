@@ -13,3 +13,23 @@ en:
       failure: "There was a problem creating your account."
     show:
       not_found: "User not found."
+    edit:
+      title: "Edit user"
+      prompt: "Update your profile"
+      submit_button: "Save changes"
+      login_required: "You must be logged in to edit your profile."
+      change: "change"
+    update:
+      failure: "There was a problem updating your profile."
+      success: "Your profile was updated successfully."
+    index:
+      title: "All users"
+      prompt: "All users"
+      no_users: "No users found."
+      login_required: "You must be logged in to view the list of users."
+    user:
+      delete: "Delete user"
+      confirm: "You sure?"
+    destroy:
+      failure: "There was a problem deleting that user."
+      success: "User deleted successfully."
