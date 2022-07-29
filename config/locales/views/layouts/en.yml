@@ -1,9 +1,8 @@
 en:
-  views:
-    layouts:
-      footer:
-        # suffix html in key for skipping escape html in footer
-        description_html: "The %{rails_tutorial_href} by %{author_href}"
-        ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
-        author: "Michael Hartl"
-        news: "News"
+  layouts:
+    footer:
+      # suffix html in key for skipping escape html in footer
+      description_html: "The %{rails_tutorial_href} by %{author_href}"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      news: "News"

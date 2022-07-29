@@ -1,38 +1,37 @@
 en:
-  views:
-    static_pages:
-      about:
-        description_html: >
-          The %{rails_tutorial_href}, part of the
-          %{learn_enough_href} family of tutorials, is a
-          %{rails_tutorial_book_href} and
-          %{rails_tutorial_screencast_href}
-          to teach web development with %{rails_href}.
-          This is the sample app for the tutorial.
-        learn_enough: "Learn Enough"
-        book: "book"
-        screencast_series: "screencast series"
-        ruby_on_rails: "Ruby on Rails"
-        ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
-      contact:
-        description_html: >
-          Contact the Ruby on Rails Tutorial
-          about the sample app at the %{contact_href}.
-        contact_page: "Contact Page"
-      help:
-        description_html: >
-          Get help on the Ruby on Rails Tutorial at the
-          %{help_href}.
-          To get help on this sample app, see the
-          %{book_href}.
-        rails_tutorial_help_page: "Rails Tutorial help page"
-        ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
-        book: "book"
-      home:
-        description_html: >
-          This is the home page for the
-          %{rails_tutorial_href}, part of the
-          sample application.
-        ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
-        signup: "Sign up now!"
-        welcome: "Welcome to the Sample App"
+  static_pages:
+    about:
+      description_html: >
+        The %{rails_tutorial_href}, part of the
+        %{learn_enough_href} family of tutorials, is a
+        %{rails_tutorial_book_href} and
+        %{rails_tutorial_screencast_href}
+        to teach web development with %{rails_href}.
+        This is the sample app for the tutorial.
+      learn_enough: "Learn Enough"
+      book: "book"
+      screencast_series: "screencast series"
+      ruby_on_rails: "Ruby on Rails"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+    contact:
+      description_html: >
+        Contact the Ruby on Rails Tutorial
+        about the sample app at the %{contact_href}.
+      contact_page: "Contact Page"
+    help:
+      description_html: >
+        Get help on the Ruby on Rails Tutorial at the
+        %{help_href}.
+        To get help on this sample app, see the
+        %{book_href}.
+      rails_tutorial_help_page: "Rails Tutorial help page"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+    home:
+      description_html: >
+        This is the home page for the
+        %{rails_tutorial_href}, part of the
+        sample application.
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
+      welcome: "Welcome to the Sample App"
