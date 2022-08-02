@@ -2,13 +2,13 @@
 <h1><%= t("app.help") %></h1>
 <p>
   <%=
-    t("views.static_pages.help.description_html",
+    t(".description_html",
       help_href: link_to(
-        t("views.static_pages.help.rails_tutorial_help_page"),
+        t(".rails_tutorial_help_page"),
         "https://www.railstutorial.org/help"
       ),
       book_href: link_to(
-        "<em>#{t("views.static_pages.help.ruby_on_rails_tutorial")}</em> #{t("views.static_pages.help.book")}".html_safe,
+        "<em>#{t(".ruby_on_rails_tutorial")}</em> #{t(".book")}".html_safe,
         "https://www.railstutorial.org/book"
       )
     )

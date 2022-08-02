@@ -2,25 +2,25 @@
 <h1><%= t("app.about") %></h1>
 <p>
   <%=
-    t("views.static_pages.about.description_html",
+    t(".description_html",
       rails_tutorial_href: link_to(
-        "<em>#{t("views.static_pages.about.ruby_on_rails_tutorial")}</em>".html_safe,
+        "<em>#{t(".ruby_on_rails_tutorial")}</em>".html_safe,
         "https://www.railstutorial.org/"
       ),
       learn_enough_href: link_to(
-        t("views.static_pages.about.learn_enough"),
+        t(".learn_enough"),
         "https://www.learnenough.com/"
       ),
       rails_tutorial_book_href: link_to(
-        t("views.static_pages.about.book"),
+        t(".book"),
         "https://www.railstutorial.org/book"
       ),
       rails_tutorial_screencast_href: link_to(
-        t("views.static_pages.about.screencast_series"),
+        t(".screencast_series"),
         "https://screencasts.railstutorial.org"
       ),
       rails_href: link_to(
-        t("views.static_pages.about.ruby_on_rails"),
+        t(".ruby_on_rails"),
         "https://rubyonrails.org/"
       ),
     )

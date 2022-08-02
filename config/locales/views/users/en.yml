@@ -1,6 +1,15 @@
 en:
-  views:
-    users:
-      new:
-        signup: "Sign up"
-        signup_prompt: "This will be a signup page for new users."
+  users:
+    new:
+      signup: "Sign up"
+      signup_prompt: "This will be a signup page for new users."
+      name_label: "Name"
+      email_label: "Email"
+      password_label: "Password"
+      password_confirmation_label: "Confirmation"
+      submit_button: "Create my account"
+    create:
+      success: "Welcome to the Sample App!"
+      failure: "There was a problem creating your account."
+    show:
+      not_found: "User not found."
