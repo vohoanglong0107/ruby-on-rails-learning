@@ -7,6 +7,7 @@ en:
       submit: "Log in"
       sign_up: "Sign up now!"
       new_user: "New user?"
+      remember_me: "Remember me on this computer"
     create:
       success: "You have been logged in."
       failure: "Invalid email/password combination"
