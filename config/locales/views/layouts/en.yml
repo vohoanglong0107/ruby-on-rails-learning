@@ -6,3 +6,11 @@ en:
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       author: "Michael Hartl"
       news: "News"
+    header:
+      account: "Account"
+      users: "Users"
+      logout: "Log out"
+      profile: "Profile"
+      settings: "Settings"
+      login: "Log in"
+
