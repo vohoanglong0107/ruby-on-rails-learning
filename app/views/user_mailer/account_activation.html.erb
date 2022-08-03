@@ -1,0 +1,7 @@
+<h1><%= t "app.logo" %></h1>
+<p><%= t ".greeting", name: @user.name %>,</p>
+<p>
+<%= t ".body" %>:
+</p>
+<%= link_to t(".action_button"), edit_account_activation_url(@user.activation_token,
+email: @user.email) %>

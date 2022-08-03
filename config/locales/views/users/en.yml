@@ -1,16 +1,19 @@
 en:
   users:
-    new:
-      signup: "Sign up"
-      signup_prompt: "This will be a signup page for new users."
+    form:
       name_label: "Name"
       email_label: "Email"
       password_label: "Password"
       password_confirmation_label: "Confirmation"
+    new:
+      signup: "Sign up"
+      signup_prompt: "This will be a signup page for new users."
       submit_button: "Create my account"
     create:
       success: "Welcome to the Sample App!"
       failure: "There was a problem creating your account."
+      check_email: "Please check your email to activate your account."
+      account_not_activated: "Your account is not activated yet. Please check your email for the activation link."
     show:
       not_found: "User not found."
     edit:
