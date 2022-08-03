@@ -7,11 +7,11 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @pagy, @users = pagy User.all
+    @pagy, @users = pagy User.where activated: true
   end
 
   def show
-    return if @user
+    return if @user&.activated?
 
     flash[:danger] = t ".not_found"
     redirect_to root_path
@@ -24,9 +24,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".check_email"
+      redirect_to root_url
     else
       flash.now[:danger] = t ".failure"
       render "new"
@@ -36,7 +36,7 @@ class UsersController < ApplicationController
   def edit; end
 
   def update
-    if @user.update(user_params)
+    if @user.update user_params
       flash[:success] = t ".success"
       redirect_to @user
     else

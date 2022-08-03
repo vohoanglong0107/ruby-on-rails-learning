@@ -1,0 +1,11 @@
+en:
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Hi %{name}"
+      body: "Welcome to the Sample App! Click on the link below to activate your account"
+      action_button: "Activate"
+  account_activations:
+    edit:
+      success: "Your account has been activated!"
+      failure: "Invalid activation link"

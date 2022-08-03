@@ -7,3 +7,7 @@ user:
   gravatar:
     default_size: 80
     index_size: 50
+mailer:
+  from: "noreply@example.com"
+session:
+  remember_me_value: "1"
