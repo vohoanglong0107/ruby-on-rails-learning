@@ -3,6 +3,7 @@ user:
   name_max_length: 50
   email_max_length: 255
   password_min_length: 6
+  password_reset_token_expiration: <%= 2.hours.ago %>
   VALID_EMAIL_REGEX: \A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z
   gravatar:
     default_size: 80
