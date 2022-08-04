@@ -5,6 +5,15 @@ en:
       greeting: "Hi %{name}"
       body: "Welcome to the Sample App! Click on the link below to activate your account"
       action_button: "Activate"
+    password_reset:
+      subject: "Password reset"
+      greeting: "Hi %{name}"
+      body: "You can reset your password by clicking the link below:"
+      expire: "This link will expire in two hours."
+      ignore: >
+        If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is.
+      action_button: "Reset password"
   account_activations:
     edit:
       success: "Your account has been activated!"

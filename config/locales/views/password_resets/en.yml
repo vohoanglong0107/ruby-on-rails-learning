@@ -1,0 +1,25 @@
+en:
+  password_resets:
+    new:
+      title: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+    create:
+      success: "Email sent with password reset instructions"
+      failure: "Email address not found"
+    edit:
+      title: "Reset password"
+      submit: "Update password"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      failure: "Password reset failed"
+      success: "Password reset successfully"
+      expired: "Password reset has expired."
+      not_found: "User not found."
+    update:
+      password: "Password"
+      cant_be_empty: "can't be empty"
+      success: "Password has been reset."
+      failure: "Password reset failed"
+      expired: "Password reset has expired."
+      not_found: "User not found."
