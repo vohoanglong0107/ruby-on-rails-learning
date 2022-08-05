@@ -1,0 +1,15 @@
+en:
+  shared:
+    error_messages:
+      form_contains_errors: 
+        one: "Form chứa 1 lỗi."
+        other: "Form chứa %{count} lỗi."
+    user_info:
+      view_my_profile: "Xem hồ sơ của tôi"
+      microposts:
+        one: "1 bài viết"
+        other: "%{count} bài viết"
+    micropost_form:
+      placeholder: "Nhập nội dung..."
+      submit: "Đăng"
+      image_size_error: "Kích thước tối đa của file là 5MB. Vui lòng chọn file nhỏ hơn."

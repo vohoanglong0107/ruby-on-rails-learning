@@ -1,0 +1,10 @@
+en:
+  app:
+    full_name: "Sample App cho khóa học Ruby on Rails"
+    logo: "Sample App"
+    home: "Trang chủ"
+    help: "Hỗ trợ"
+    about: "Giới thiệu"
+    contact: "Liên hệ"
+    signup: "Đăng ký"
+    login: "Đăng nhập"

@@ -1,0 +1,15 @@
+en:
+  layouts:
+    footer:
+      # suffix html in key for skipping escape html in footer
+      description_html: "%{rails_tutorial_href} bởi %{author_href}"
+      ruby_on_rails_tutorial: "Khóa học Ruby on Rails"
+      author: "Michael Hartl"
+      news: "Tin tức"
+    header:
+      account: "Tài khoản"
+      users: "Người dùng"
+      logout: "Đăng xuất"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      login: "Đăng nhập"

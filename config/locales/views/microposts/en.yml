@@ -1,0 +1,15 @@
+en:
+  microposts:
+    create:
+      success: "Micropost created successfully."
+      failure: "There was a problem creating your micropost."
+      check_email: "Please check your email to activate your account."
+      account_not_activated: "Your account is not activated yet. Please check your email for the activation link."
+    micropost:
+      delete: "Delete"
+      confirm: "Are you sure?"
+    destroy:
+      success: "Micropost deleted"
+      failure: "There was a problem deleting your micropost."
+    valid_image_format: "must be a valid image format"
+    valid_image_size: "should be less than 5MB"

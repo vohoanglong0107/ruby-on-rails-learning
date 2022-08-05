@@ -1,0 +1,15 @@
+en:
+  microposts:
+    create:
+      success: "Đăng bài thành công"
+      failure: "Có lỗi xảy ra khi đăng bài"
+      check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+      account_not_activated: "Tài khoản của bạn chưa được kích hoạt. Vui lòng kiểm tra email để kích hoạt tài khoản"
+    micropost:
+      delete: "Xóa"
+      confirm: "Bạn có chắc chắn muốn xóa?"
+    destroy:
+      success: "Đã xóa bài viết"
+      failure: "Có lỗi xảy ra khi xóa bài viết"
+    valid_image_format: "phải đúng định dạng ảnh"
+    valid_image_size: "phải nhỏ hơn 5MB"

@@ -8,6 +8,15 @@ user:
   gravatar:
     default_size: 80
     index_size: 50
+micropost:
+  content:
+    length:
+      maximum: 140
+      minimum: 1
+  image:
+    content_types: [ "image/jpeg", "image/gif", "image/png" ]
+    size: [500, 500]
+    maximum_file_size: <%= 5.megabytes %>
 mailer:
   from: "noreply@example.com"
 session:

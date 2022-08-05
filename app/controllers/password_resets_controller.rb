@@ -1,5 +1,6 @@
 class PasswordResetsController < ApplicationController
-  before_action :find_user, :valid_user, :check_expiration, only: %i(edit update)
+  before_action :find_user, :valid_user, :check_expiration,
+                only: %i(edit update)
 
   def new; end
 
@@ -20,16 +21,11 @@ class PasswordResetsController < ApplicationController
 
   def update
     if params[:user][:password].empty?
-      @user.errors.add t(".password"), t(".cant_be_empty")
-      render :edit
+      handle_user_password_empty
     elsif @user.update user_params
-      log_in @user
-      @user.update_attribute(:reset_digest, nil)
-      flash[:success] = t ".success"
-      redirect_to @user
+      handle_update_success
     else
-      flash[:danger] = t ".failure"
-      render :edit
+      handle_update_failure
     end
   end
 
@@ -59,5 +55,22 @@ class PasswordResetsController < ApplicationController
 
     flash[:danger] = t ".expired"
     redirect_to new_password_reset_url
+  end
+
+  def handle_user_password_empty
+    @user.errors.add t(".password"), t(".cant_be_empty")
+    render :edit
+  end
+
+  def handle_update_success
+    log_in @user
+    @user.update_attribute(:reset_digest, nil)
+    flash[:success] = t ".success"
+    redirect_to @user
+  end
+
+  def handle_update_failure
+    flash[:danger] = t ".failure"
+    render :edit
   end
 end

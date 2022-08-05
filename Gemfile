@@ -11,6 +11,11 @@ gem "mysql2", "~> 0.5"
 gem "net-smtp"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6", ">= 6.1.6.1"
+gem "rails-i18n", "~> 7.0.5"
+gem "i18n-js", "~> 3.0.0"
+gem "active_storage_validations", "~> 0.9.8"
+gem "image_processing", "~> 1.12.2"
+gem "mini_magick", "~> 4.11.0"
 gem "bcrypt", "~> 3.1.18"
 gem "faker", "~> 2.22.0"
 gem "pagy", "~> 5.10.1"
@@ -24,6 +29,7 @@ group :development, :test do
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-minitest", "~> 0.20.1", require: false
   gem "rubocop-rails", "~> 2.14.0", require: false
+  gem "guard", "~> 2.18.0"
 end
 
 group :development do
@@ -31,11 +37,11 @@ group :development do
   gem "rack-mini-profiler", "~> 2.0"
   gem "spring"
   gem "web-console", ">= 4.1.0"
+  gem "guard-compat", "~> 1.2.1"
 end
 
 group :test do
   gem "capybara", ">= 3.26"
-  gem "guard", "~> 2.18.0"
   gem "guard-minitest", "~> 2.4.6"
   gem "minitest", "~> 5.16.2"
   gem "minitest-reporters", "~> 1.5.0"

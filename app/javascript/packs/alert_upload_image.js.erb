@@ -1,0 +1,8 @@
+const alert_message = "<%= I18n.t "shared.micropost_form.image_size_error" %>";
+const image_max_size = <%= Settings.micropost.image.maximum_file_size %>;
+$("#micropost_image").bind("change", function() {
+  var size_in_megabytes = this.files[0].size;
+  if (size_in_megabytes > image_max_size) {
+    alert(alert_message);
+  }
+});

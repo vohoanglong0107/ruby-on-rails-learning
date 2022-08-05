@@ -4,3 +4,12 @@ en:
       form_contains_errors: 
         one: "The form contains one error."
         other: "The form contains %{count} errors."
+    user_info:
+      view_my_profile: "View my profile"
+      microposts:
+        one: "one micropost"
+        other: "%{count} microposts"
+    micropost_form:
+      placeholder: "What's on your mind?"
+      submit: "Post"
+      image_size_error: "Maximum file size is 5MB. Please choose a smaller file."

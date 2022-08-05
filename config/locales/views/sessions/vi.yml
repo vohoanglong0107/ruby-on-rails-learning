@@ -1,0 +1,14 @@
+en:
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      submit: "Đăng nhập"
+      sign_up: "Đăng ký"
+      new_user: "Người dùng mới?"
+      remember_me: "Ghi nhớ đăng nhập"
+      forgot_password: "Quên mật khẩu?"
+    create:
+      success: "Bạn đã đăng nhập thành công"
+      failure: "Email hoặc mật khẩu không đúng"

@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              content_type_invalid: "must be a valid image format"
+              file_size_out_of_range: "size %{file_size} should be less than 5MB"

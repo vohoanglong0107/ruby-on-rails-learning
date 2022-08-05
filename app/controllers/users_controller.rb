@@ -11,10 +11,12 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user&.activated?
-
-    flash[:danger] = t ".not_found"
-    redirect_to root_path
+    if @user&.activated?
+      @pagy, @microposts = pagy @user.microposts.newest
+    else
+      flash[:danger] = t ".not_found"
+      redirect_to root_path
+    end
   end
 
   def new
@@ -67,14 +69,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t ".not_found"
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t ".login_required"
-    redirect_to login_url
   end
 
   def correct_user
