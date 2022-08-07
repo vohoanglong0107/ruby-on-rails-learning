@@ -13,3 +13,6 @@ en:
       placeholder: "What's on your mind?"
       submit: "Post"
       image_size_error: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      followers: "followers"

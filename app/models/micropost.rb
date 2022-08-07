@@ -9,7 +9,7 @@ class Micropost < ApplicationRecord
     size: {less_than: Settings.micropost.image.maximum_file_size}
   delegate :name, to: :user, prefix: true
   scope :newest, ->{order(created_at: :desc)}
-  scope :feed, ->(id){where(user_id: id)}
+  scope :by_user_id, ->(id){where(user_id: id)}
 
   def display_image
     image.variant(

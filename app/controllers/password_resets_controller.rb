@@ -64,13 +64,13 @@ class PasswordResetsController < ApplicationController
 
   def handle_update_success
     log_in @user
-    @user.update_attribute(:reset_digest, nil)
+    @user.update_attribute :reset_digest, nil
     flash[:success] = t ".success"
     redirect_to @user
   end
 
   def handle_update_failure
-    flash[:danger] = t ".failure"
+    flash.now[:danger] = t ".failure"
     render :edit
   end
 end

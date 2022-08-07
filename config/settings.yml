@@ -8,6 +8,7 @@ user:
   gravatar:
     default_size: 80
     index_size: 50
+    follow_size: 30
 micropost:
   content:
     length:
