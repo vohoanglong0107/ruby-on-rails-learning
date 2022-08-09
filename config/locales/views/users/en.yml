@@ -37,3 +37,14 @@ en:
     destroy:
       failure: "There was a problem deleting that user."
       success: "User deleted successfully."
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      follow_button: "Follow"
+    unfollow:
+      unfollow_button: "Unfollow"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts_label: "Microposts:"
