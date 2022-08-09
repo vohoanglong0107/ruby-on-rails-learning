@@ -30,6 +30,7 @@ group :development, :test do
   gem "rubocop-minitest", "~> 0.20.1", require: false
   gem "rubocop-rails", "~> 2.14.0", require: false
   gem "guard", "~> 2.18.0"
+  gem "solargraph"
 end
 
 group :development do

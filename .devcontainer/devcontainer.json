@@ -14,6 +14,8 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"rebornix.Ruby",
+				"castwide.solargraph",
+				"kaiwood.endwise",
 				"eamodio.gitlens",
 				"mhutchie.git-graph",
 				"mtxr.sqltools",
