@@ -16,6 +16,7 @@ en:
       account_not_activated: "Your account is not activated yet. Please check your email for the activation link."
     show:
       not_found: "User not found."
+      microposts: "Microposts (%{count})"
     edit:
       title: "Edit user"
       prompt: "Update your profile"

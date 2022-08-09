@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              content_type_invalid: "phải đúng định dạng ảnh"
+              file_size_out_of_range: "file %{file_size} phải bé hơn 5MB"

@@ -1,0 +1,35 @@
+en:
+  static_pages:
+    about:
+      description_html: >
+        %{rails_tutorial_href}, 1 phần của khóa học %{learn_enough_href},
+        là một %{rails_tutorial_book_href} và
+        %{rails_tutorial_screencast_href}
+        để học web development với %{rails_href}.
+        Đây là ứng dụng mẫu cho khóa học.
+      learn_enough: "Learn Enough"
+      book: "sách"
+      screencast_series: "series bằng phim"
+      ruby_on_rails: "Ruby on Rails"
+      ruby_on_rails_tutorial: "Khóa học Ruby on Rails"
+    contact:
+      description_html: >
+        Liên hệ với khóa học Ruby on Rails
+        về ứng dụng này tại %{contact_href}.
+      contact_page: "Trang liên hệ"
+    help:
+      description_html: >
+        Nhận hỗ trợ về khóa học Ruby on Rails tại %{help_href}.
+        Để xem hỗ trợ về ứng dụng này, xem %{book_href}.
+      rails_tutorial_help_page: "Trang hỗ trợ khóa học"
+      ruby_on_rails_tutorial: "Khóa học Ruby on Rails"
+      book: "sách"
+    welcome_home:
+      description_html: >
+        Đây là trang chủ cho khóa học %{rails_tutorial_href},
+        1 phần của ứng dụng mẫu.
+      ruby_on_rails_tutorial: "Khóa học Ruby on Rails"
+      signup: "Đăng ký ngay!"
+      welcome: "Chào mừng đến với ứng dụng mẫu"
+    user_home:
+      feeds: "Feeds"

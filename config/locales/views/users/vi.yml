@@ -1,0 +1,39 @@
+en:
+  users:
+    form:
+      name_label: "Họ và tên"
+      email_label: "Email"
+      password_label: "Mật khẩu"
+      password_confirmation_label: "Xác nhận mật khẩu"
+    new:
+      signup: "Đăng ký"
+      signup_prompt: "Đây sẽ là trang đăng ký dành cho người dùng mới"
+      submit_button: "Đăng ký"
+    create:
+      success: "Xin chào đến với Sample App"
+      failure: "Đăng ký thất bại"
+      check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+      account_not_activated: "Tài khoản của bạn chưa được kích hoạt. Vui lòng kiểm tra email để kích hoạt tài khoản"
+    show:
+      not_found: "Không tìm thấy người dùng"
+      microposts: "Bài viết (%{count})"
+    edit:
+      title: "Chỉnh sửa thông tin"
+      prompt: "Chỉnh sửa thông tin cá nhân của bạn"
+      submit_button: "Lưu thay đổi"
+      login_required: "Bạn cần đăng nhập để thực hiện chức năng này"
+      change: "Thay đổi"
+    update:
+      failure: "Cập nhật thất bại"
+      success: "Cập nhật thành công"
+    index:
+      title: "Danh sách người dùng"
+      prompt: "Danh sách người dùng"
+      no_users: "Không có người dùng nào"
+      login_required: "Bạn cần đăng nhập để thực hiện chức năng này"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn có chắc chắn muốn xóa?"
+    destroy:
+      failure: "Xóa thất bại"
+      success: "Xóa thành công"

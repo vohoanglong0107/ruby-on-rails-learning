@@ -1,0 +1,25 @@
+en:
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    create:
+      success: "Đã gửi Email với hướng dẫn khôi phục mật khẩu"
+      failure: "Email không tồn tại"
+    edit:
+      title: "Khôi phục mật khẩu"
+      submit: "Cập nhật"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      failure: "Khôi phục mật khẩu thất bại"
+      success: "Khôi phục mật khẩu thành công"
+      expired: "Liên kết khôi phục mật khẩu đã hết hạn"
+      not_found: "Không tìm thấy người dùng"
+    update:
+      password: "Mật khẩu"
+      cant_be_empty: "không được để trống"
+      success: "Mật khẩu đã được khôi phục"
+      failure: "Khôi phục mật khẩu thất bại"
+      expired: "Liên kết khôi phục mật khẩu đã hết hạn"
+      not_found: "Không tìm thấy người dùng"

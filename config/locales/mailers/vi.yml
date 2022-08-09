@@ -1,0 +1,20 @@
+en:
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      greeting: "Xin chào %{name}"
+      body: "Chào mừng bạn đến với ứng dụng Sample App! Bấm vào liên kết bên dưới để kích hoạt tài khoản của bạn"
+      action_button: "Kích hoạt"
+    password_reset:
+      subject: "Khôi phục mật khẩu"
+      greeting: "Xin chào %{name}"
+      body: "Bạn có thể khôi phục mật khẩu của mình bằng cách bấm vào liên kết bên dưới:"
+      expire: "Liên kết này sẽ hết hạn sau 2 giờ."
+      ignore: >
+        Nếu bạn không yêu cầu khôi phục mật khẩu,
+        hãy bỏ qua email này và mật khẩu của bạn sẽ ở trạng thái như ban đầu.
+      action_button: "Khôi phục mật khẩu"
+  account_activations:
+    edit:
+      success: "Tài khoản của bạn đã được kích hoạt!"
+      failure: "Liên kết kích hoạt không hợp lệ"
